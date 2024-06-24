@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T12:15:13.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="lUh-yRbbg0DiNtpgq5nQ" version="24.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-24T12:15:34.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="quEfYpdHdUZuwCDfYS0p" version="24.6.2" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="上位系統交握流程大綱">
     <mxGraphModel dx="1066" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -424,7 +424,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Bz-EnDE-zUovgd8_wRp7" name="自動取放盤">
-    <mxGraphModel dx="1122" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
