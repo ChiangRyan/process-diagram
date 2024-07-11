@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T11:08:12.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="LoMUhRN3WG89gtTc60r-" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-11T12:23:06.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Hkyv0HTUG4OQPo8JHRoZ" version="24.6.4" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="上位系統交握流程大綱">
     <mxGraphModel dx="1066" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -661,11 +661,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2wA8hH6l1dgdZjdpqcF2" name="自動取放刀">
-    <mxGraphModel dx="2227" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1431" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-1" value="提供刀位(Layer,tool num)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+        <mxCell id="3dZJNFZHPKCO823eB3yJ-1" value="提供刀位(Layer,tool num)&lt;div&gt;&amp;amp; EDM編號&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="186" y="290" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-7" target="3dZJNFZHPKCO823eB3yJ-9" edge="1">
@@ -684,32 +684,26 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-11" value="刀塔移動到&lt;div&gt;指定刀位&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="186" y="670" width="100" height="40" as="geometry" />
+          <mxGeometry x="186" y="600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-12" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-15" target="3dZJNFZHPKCO823eB3yJ-17" edge="1">
           <mxGeometry x="-0.1515" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xtFYvQuUhFj0W8ld0y1l-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3dZJNFZHPKCO823eB3yJ-15" target="xtFYvQuUhFj0W8ld0y1l-5">
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3dZJNFZHPKCO823eB3yJ-15" target="3dZJNFZHPKCO823eB3yJ-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xtFYvQuUhFj0W8ld0y1l-8" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xtFYvQuUhFj0W8ld0y1l-6">
-          <mxGeometry x="-0.3448" relative="1" as="geometry">
-            <mxPoint x="16" as="offset" />
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-4" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VtdvaogcLJN-W2z9_aPD-3">
+          <mxGeometry x="-0.3956" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-15" value="判斷手臂是否&lt;div&gt;安裝取刀夾治具&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="176" y="485" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="266" y="580" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="391" y="580" />
-            </Array>
-            <mxPoint x="386" y="550" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3dZJNFZHPKCO823eB3yJ-17" target="xtFYvQuUhFj0W8ld0y1l-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-17" value="命令安裝&lt;div&gt;夾治具&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="356" y="505" width="70" height="40" as="geometry" />
@@ -718,151 +712,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-22" value="取刀完成移動至EDM待命位" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="186" y="810" width="100" height="40" as="geometry" />
+          <mxGeometry x="186" y="740" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-40" value="完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="186" y="884" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-42" target="3dZJNFZHPKCO823eB3yJ-85" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1042" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-42" value="提供刀位(Layer,tool num)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="992" y="230" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-46" target="3dZJNFZHPKCO823eB3yJ-59" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-44" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-43" vertex="1" connectable="0">
-          <mxGeometry x="0.2119" y="-2" relative="1" as="geometry">
-            <mxPoint x="22" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3dZJNFZHPKCO823eB3yJ-46" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1142" y="710" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-46" value="判斷EDM&lt;div&gt;是否&lt;br&gt;READY&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="982" y="550" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-48" target="3dZJNFZHPKCO823eB3yJ-50" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-48" value="EDM取刀回&lt;div&gt;倉儲&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="982" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-50" target="3dZJNFZHPKCO823eB3yJ-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-50" value="取刀命令&lt;div&gt;sand交握碼XX&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="992" y="170" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-51" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-54" target="3dZJNFZHPKCO823eB3yJ-56" edge="1">
-          <mxGeometry x="-0.1429" y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-54" target="3dZJNFZHPKCO823eB3yJ-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-53" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-52" vertex="1" connectable="0">
-          <mxGeometry x="-0.1476" y="2" relative="1" as="geometry">
-            <mxPoint x="13" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-54" value="判斷手臂是否&lt;div&gt;安裝取刀夾治具&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="982" y="425" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-56" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1072" y="520" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1197" y="520" />
-              <mxPoint x="1072" y="520" />
-            </Array>
-            <mxPoint x="1197" y="489" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-56" value="命令安裝&lt;div&gt;夾治具&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="1162" y="445" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eOIt9wrfrLXr4VAcxdAv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-57" target="3dZJNFZHPKCO823eB3yJ-85" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eOIt9wrfrLXr4VAcxdAv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-57" target="3dZJNFZHPKCO823eB3yJ-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-57" value="上位判斷or倉儲自行判斷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="840" y="390" width="92" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-59" target="3dZJNFZHPKCO823eB3yJ-92" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-59" value="手臂伸出至取刀位AorB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="992" y="660" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-61" target="3dZJNFZHPKCO823eB3yJ-73" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-61" value="中斷流程並警報" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1362" y="694" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-62" value="逾時，過載，訊號錯誤等......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1162" y="740" width="175" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-67" target="3dZJNFZHPKCO823eB3yJ-72" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1152" y="850" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-64" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-63" vertex="1" connectable="0">
-          <mxGeometry x="-0.1556" y="2" relative="1" as="geometry">
-            <mxPoint x="-18" y="-56" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1041.74" y="870" as="sourcePoint" />
-            <mxPoint x="1041.74" y="960" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-66" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-65" vertex="1" connectable="0">
-          <mxGeometry x="-0.7035" y="-1" relative="1" as="geometry">
-            <mxPoint x="14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-67" value="判斷EDM&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;主軸脫離&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="982" y="790" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-72" target="3dZJNFZHPKCO823eB3yJ-61" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-69" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-68" vertex="1" connectable="0">
-          <mxGeometry x="-0.3294" y="2" relative="1" as="geometry">
-            <mxPoint y="-12" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-72" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1202" y="520" as="targetPoint" />
-            <mxPoint x="1242.0144927536232" y="643.9996618357487" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1242" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-71" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-70" vertex="1" connectable="0">
-          <mxGeometry x="0.0588" y="2" relative="1" as="geometry">
-            <mxPoint x="12" y="28" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-72" value="判斷&lt;div&gt;是否警報&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1182" y="674" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-73" value="人工故障排除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1502" y="694" width="100" height="40" as="geometry" />
+          <mxGeometry x="186" y="814" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="3dZJNFZHPKCO823eB3yJ-79" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -886,69 +739,28 @@
             <mxPoint x="18" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="VtdvaogcLJN-W2z9_aPD-16" target="VtdvaogcLJN-W2z9_aPD-17" parent="3dZJNFZHPKCO823eB3yJ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-14" value="Err" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VtdvaogcLJN-W2z9_aPD-13">
+          <mxGeometry x="-0.0693" y="3" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-79" value="判斷刀位&lt;div&gt;狀態是否正確&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="176" y="370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-80" value="報錯" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="356" y="390" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-85" target="3dZJNFZHPKCO823eB3yJ-86" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-82" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-81" vertex="1" connectable="0">
-          <mxGeometry x="-0.359" y="2" relative="1" as="geometry">
-            <mxPoint x="6" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-85" target="3dZJNFZHPKCO823eB3yJ-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-84" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3dZJNFZHPKCO823eB3yJ-83" vertex="1" connectable="0">
-          <mxGeometry x="-0.3556" relative="1" as="geometry">
-            <mxPoint x="13" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-85" value="判斷刀位&lt;div&gt;狀態是否正確&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="982" y="310" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-86" value="回覆錯誤" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1162" y="330" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-87" value="開門&amp;amp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;主軸定位&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="944" y="540" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-89" target="3dZJNFZHPKCO823eB3yJ-90" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-89" value="移動至刀塔放刀" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="992" y="960" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-90" value="完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="992" y="1020" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3dZJNFZHPKCO823eB3yJ-92" target="3dZJNFZHPKCO823eB3yJ-67" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-92" value="手臂夾刀" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="992" y="724" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-93" value="手臂收回" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="992" y="900" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="3dZJNFZHPKCO823eB3yJ-94" value="倉儲取刀至EDM到位" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="193" y="100" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3dZJNFZHPKCO823eB3yJ-95" value="EDM取刀回倉儲交握流程圖" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1337" y="70" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xtFYvQuUhFj0W8ld0y1l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xtFYvQuUhFj0W8ld0y1l-1" target="3dZJNFZHPKCO823eB3yJ-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xtFYvQuUhFj0W8ld0y1l-1" value="手臂移動至&lt;div&gt;刀塔取刀&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="186" y="740" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="xtFYvQuUhFj0W8ld0y1l-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xtFYvQuUhFj0W8ld0y1l-5" target="3dZJNFZHPKCO823eB3yJ-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="186" y="670" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xtFYvQuUhFj0W8ld0y1l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xtFYvQuUhFj0W8ld0y1l-5" target="xtFYvQuUhFj0W8ld0y1l-9">
           <mxGeometry relative="1" as="geometry" />
@@ -958,11 +770,14 @@
             <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xtFYvQuUhFj0W8ld0y1l-5" target="3dZJNFZHPKCO823eB3yJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xtFYvQuUhFj0W8ld0y1l-5" value="夾治具功能檢查" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="186" y="600" width="100" height="40" as="geometry" />
+          <mxGeometry x="341" y="600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xtFYvQuUhFj0W8ld0y1l-9" value="報錯" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="356" y="600" width="70" height="40" as="geometry" />
+          <mxGeometry x="490" y="600" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xtFYvQuUhFj0W8ld0y1l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xtFYvQuUhFj0W8ld0y1l-14" target="xtFYvQuUhFj0W8ld0y1l-16">
           <mxGeometry relative="1" as="geometry" />
@@ -987,6 +802,108 @@
         </mxCell>
         <mxCell id="xtFYvQuUhFj0W8ld0y1l-35" value="EDM取刀完成返回" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="547" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="xtFYvQuUhFj0W8ld0y1l-46" target="xtFYvQuUhFj0W8ld0y1l-48" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-46" value="前往EDM&lt;div&gt;取刀到位&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xtFYvQuUhFj0W8ld0y1l-48" target="VtdvaogcLJN-W2z9_aPD-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-48" value="取刀命令&lt;div&gt;sand交握碼XX&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="244" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-59" value="完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="646" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-67" value="前往EDM取刀到位" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="917" y="114" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xtFYvQuUhFj0W8ld0y1l-69" target="xtFYvQuUhFj0W8ld0y1l-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-69" value="手臂移動至&lt;div&gt;EDM並夾刀&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="571" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="xtFYvQuUhFj0W8ld0y1l-76" target="xtFYvQuUhFj0W8ld0y1l-78" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-76" value="EDM鬆刀完成&lt;div&gt;返回刀庫&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-78" value="取刀命令&lt;div&gt;sand交握碼XX&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="xtFYvQuUhFj0W8ld0y1l-80" target="xtFYvQuUhFj0W8ld0y1l-81" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-80" value="返回刀庫放刀" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-81" value="完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="494" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xtFYvQuUhFj0W8ld0y1l-82" value="EDM鬆刀完成返回刀庫" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1357" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtdvaogcLJN-W2z9_aPD-6" target="xtFYvQuUhFj0W8ld0y1l-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-6" value="刀塔移動到&lt;div&gt;指定刀位&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="496" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-7" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="VtdvaogcLJN-W2z9_aPD-10" target="VtdvaogcLJN-W2z9_aPD-12" parent="1">
+          <mxGeometry x="-0.1515" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="VtdvaogcLJN-W2z9_aPD-10" target="VtdvaogcLJN-W2z9_aPD-6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-9" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VtdvaogcLJN-W2z9_aPD-8">
+          <mxGeometry x="-0.3956" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-10" value="判斷手臂是否&lt;div&gt;安裝取刀夾治具&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="381" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="VtdvaogcLJN-W2z9_aPD-12" target="VtdvaogcLJN-W2z9_aPD-16" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-12" value="命令安裝&lt;div&gt;夾治具&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="401" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="VtdvaogcLJN-W2z9_aPD-16" target="VtdvaogcLJN-W2z9_aPD-6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-16" value="夾治具功能檢查" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="496" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-17" value="報錯" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1216" y="495" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtdvaogcLJN-W2z9_aPD-20" target="VtdvaogcLJN-W2z9_aPD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-20" value="提供刀位(Layer,tool num)&lt;div&gt;&amp;amp; EDM編號&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="311" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtdvaogcLJN-W2z9_aPD-27" target="VtdvaogcLJN-W2z9_aPD-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-26" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VtdvaogcLJN-W2z9_aPD-25">
+          <mxGeometry x="-0.359" y="2" relative="1" as="geometry">
+            <mxPoint x="6" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-27" value="判斷刀位&lt;div&gt;狀態是否正確&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="311" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VtdvaogcLJN-W2z9_aPD-28" value="報錯" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="331" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
