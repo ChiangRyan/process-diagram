@@ -6,6 +6,6 @@
 5. 手動放盤 ok
 6. 倉儲取盤到EDM ok
 7. EDM取盤到倉儲 ok
-8. TOOL-刀庫取刀到EDM
-9. TOOL-EDM取刀到刀庫
+8. TOOL-刀庫取刀到EDM ok
+9. TOOL-EDM取刀到刀庫 ok
 
