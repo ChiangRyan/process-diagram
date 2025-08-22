@@ -880,7 +880,7 @@
         <mxCell id="QrJIbfbtOHw5BXgXkpN5-60" value="IF&lt;div&gt;&amp;nbsp;AxisX Pos&lt;div&gt;&amp;nbsp;&amp;gt; 伸出安全值&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="113" y="120" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-oqBi241l5S0ZlyVfIJO-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="-oqBi241l5S0ZlyVfIJO-18">
+        <mxCell id="-oqBi241l5S0ZlyVfIJO-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="857" y="705" as="sourcePoint" />
           </mxGeometry>
@@ -902,7 +902,7 @@
         <mxCell id="-oqBi241l5S0ZlyVfIJO-8" value="系統異常中斷" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1098" y="-327" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-oqBi241l5S0ZlyVfIJO-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="-oqBi241l5S0ZlyVfIJO-20">
+        <mxCell id="-oqBi241l5S0ZlyVfIJO-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="977" y="705" as="sourcePoint" />
           </mxGeometry>
